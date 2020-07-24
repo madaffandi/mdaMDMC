@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="jenis_bahaya">
+        <item>Api</item>
+        <item>Bahan kimia</item>
+        <item>Biologi</item>
+        <item>Radiasi</item>
+        <item>Nuklir</item>
+        <item>Bangunan runtuh</item>
+        <item>Lain-lain</item>
+    </string-array>
+</resources>

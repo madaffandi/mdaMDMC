@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "642033223709",
+    "firebase_url": "https://mdisaster-2019.firebaseio.com",
+    "project_id": "mdisaster-2019",
+    "storage_bucket": "mdisaster-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642033223709:android:c5e9c5595dc6f2d0",
+        "android_client_info": {
+          "package_name": "achmadaffandi.mdisaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642033223709-2ffca9ns763gl1rjo3ake9qos13fdjrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "achmadaffandi.mdisaster",
+            "certificate_hash": "1f61e2934d78e12c76194a5f306fe0fdb995a897"
+          }
+        },
+        {
+          "client_id": "642033223709-tdvad7bvis36asvl8bhdeca0q0ljfata.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtSXaHBO_NSrdM4t17GBHp6jiEh7Xw7YI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642033223709-tdvad7bvis36asvl8bhdeca0q0ljfata.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

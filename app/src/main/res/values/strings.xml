@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">mDisaster</string>
+    <string name="app_intro">mDisaster Introduction</string>
+    <string name="input_error_nama">masukkan nama dengan benar</string>
+    <string name="input_error_email">masukkan email dengan benar</string>
+    <string name="input_error_password">masukkan password dengan benar</string>
+    <string name="input_error_password_length">password tidak kurang dari 5 karakter</string>
+    <string name="input_error_repassword">konfirmasi password salah</string>
+    <string name="input_error_phone">masukkan nomor handphone dengan benar</string>
+    <string name="registration_success">Selamat! Anda telah terdaftar</string>
+    <string name="registration_failed">ada kesalahan, silakan ulangi kembali</string>
+    <string name="login_failed">ada kesalahan, silakan ulangi kembali</string>
+    <string name="link_gempa">ada kesalahan, silakan ulangi kembali</string>
+</resources>

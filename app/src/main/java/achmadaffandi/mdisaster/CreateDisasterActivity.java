@@ -25,9 +25,9 @@ import achmadaffandi.mdisaster.Model.DisasterData;
 
 public class CreateDisasterActivity extends AppCompatActivity {
 
-    private Button btn_backInitateDis, btn_createDis;
+    private Button btn_backInitateDis, btn_createDis, btn_toDisLoc;
     private EditText et_cd_calendar, et_ketLainDis;
-    private AutoCompleteTextView cd_jenisbahaya;
+    private AutoCompleteTextView ac_jenisbahaya;
     private String[] arrJenisBahaya;
     private String ketLainDis, jenisBahaya, jenisBencana, tglKejadian, lokKejadian;
     private DatabaseReference mDatabase;
@@ -40,9 +40,10 @@ public class CreateDisasterActivity extends AppCompatActivity {
         btn_backInitateDis = (Button) findViewById(R.id.btn_backInitiateDis);
         btn_createDis = (Button) findViewById(R.id.btn_createDis);
         et_cd_calendar = (EditText) findViewById(R.id.et_cd_calendar);
-        cd_jenisbahaya = (AutoCompleteTextView) findViewById(R.id.cd_jenisbahaya);
+        ac_jenisbahaya = (AutoCompleteTextView) findViewById(R.id.cd_jenisbahaya);
         arrJenisBahaya = getResources().getStringArray(R.array.jenis_bahaya);
         et_ketLainDis = (EditText) findViewById(R.id.et_ketLainCreateDis);
+        btn_toDisLoc = (Button) findViewById(R.id.btn_toDisLoc);
         tvDisType = (TextView) findViewById(R.id.tv_distype);
 
         Intent i = getIntent();
@@ -58,15 +59,23 @@ public class CreateDisasterActivity extends AppCompatActivity {
             }
         });
 
+        btn_toDisLoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(CreateDisasterActivity.this, MapLocation.class);
+                startActivity(i);
+            }
+        });
+
         ArrayAdapter<String> adapJeniSBahaya = new ArrayAdapter<String>(CreateDisasterActivity.this,
                 android.R.layout.simple_list_item_1, arrJenisBahaya);
-        cd_jenisbahaya.setAdapter(adapJeniSBahaya);
-        cd_jenisbahaya.setThreshold(1);
-        cd_jenisbahaya.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        ac_jenisbahaya.setAdapter(adapJeniSBahaya);
+        ac_jenisbahaya.setThreshold(1);
+        ac_jenisbahaya.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus) {
-                    cd_jenisbahaya.showDropDown();
+                    ac_jenisbahaya.showDropDown();
                 }
             }
         });
@@ -107,7 +116,7 @@ public class CreateDisasterActivity extends AppCompatActivity {
 
     public void createNewDisaster() {
         setKetLainDis(et_ketLainDis.getText().toString());
-        setJenisBahaya(cd_jenisbahaya.getText().toString());
+        setJenisBahaya(ac_jenisbahaya.getText().toString());
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Disaster").push();
         DisasterData dData = new DisasterData(getJenisBencana(), getTglKejadian(), getJenisBahaya(), getKetLainDis());
         mDatabase.setValue(dData);

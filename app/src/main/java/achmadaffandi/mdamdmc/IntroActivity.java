@@ -1,11 +1,11 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import com.github.paolorotolo.appintro.AppIntro;
-import achmadaffandi.mdisaster.Interface.SampleSlide;
+import achmadaffandi.mdamdmc.Interface.SampleSlide;
 
 public class IntroActivity extends AppIntro {
     @Override

@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster.Model;
+package achmadaffandi.mdamdmc.Model;
 
 public class DisasterData {
     private String title, description, imageId;

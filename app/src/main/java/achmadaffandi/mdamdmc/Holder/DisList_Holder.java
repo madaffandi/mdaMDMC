@@ -1,13 +1,11 @@
-package achmadaffandi.mdisaster.Holder;
+package achmadaffandi.mdamdmc.Holder;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-import achmadaffandi.mdisaster.R;
+import achmadaffandi.mdamdmc.R;
 
 public class DisList_Holder extends RecyclerView.ViewHolder {
 

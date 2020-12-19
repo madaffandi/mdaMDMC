@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "642033223709",
-    "firebase_url": "https://mdisaster-2019.firebaseio.com",
-    "project_id": "mdisaster-2019",
-    "storage_bucket": "mdisaster-2019.appspot.com"
+    "firebase_url": "https://mdamdmc-2019.firebaseio.com",
+    "project_id": "mdamdmc-2019",
+    "storage_bucket": "mdamdmc-2019.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:642033223709:android:c5e9c5595dc6f2d0",
         "android_client_info": {
-          "package_name": "achmadaffandi.mdisaster"
+          "package_name": "achmadaffandi.mdamdmc"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "642033223709-2ffca9ns763gl1rjo3ake9qos13fdjrc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "achmadaffandi.mdisaster",
+            "package_name": "achmadaffandi.mdamdmc",
             "certificate_hash": "1f61e2934d78e12c76194a5f306fe0fdb995a897"
           }
         },

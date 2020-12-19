@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;

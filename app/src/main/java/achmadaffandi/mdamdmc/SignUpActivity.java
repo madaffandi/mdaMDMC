@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import android.content.Intent;
 import androidx.annotation.NonNull;
@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.database.FirebaseDatabase;
 
-import achmadaffandi.mdisaster.Model.User;
+import achmadaffandi.mdamdmc.Model.User;
 
 public class SignUpActivity extends AppCompatActivity {
 

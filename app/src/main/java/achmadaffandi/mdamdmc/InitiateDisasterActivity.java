@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridLayout;
-import android.widget.Toast;
 
 public class InitiateDisasterActivity extends AppCompatActivity {
 

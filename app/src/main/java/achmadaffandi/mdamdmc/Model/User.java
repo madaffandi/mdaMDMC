@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster.Model;
+package achmadaffandi.mdamdmc.Model;
 
 public class User {
     public String nama, email, phone, type;

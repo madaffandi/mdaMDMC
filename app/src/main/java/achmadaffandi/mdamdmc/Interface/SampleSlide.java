@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster.Interface;
+package achmadaffandi.mdamdmc.Interface;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;

@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.NonNull;
@@ -27,7 +27,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import achmadaffandi.mdisaster.Model.User;
+import achmadaffandi.mdamdmc.Model.User;
 
 public class LoginActivity extends AppCompatActivity {
 

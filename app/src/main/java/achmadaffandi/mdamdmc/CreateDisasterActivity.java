@@ -1,6 +1,4 @@
-package achmadaffandi.mdisaster;
-
-import androidx.appcompat.app.AppCompatActivity;
+package achmadaffandi.mdamdmc;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -15,13 +13,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import achmadaffandi.mdisaster.Model.DisasterData;
+import achmadaffandi.mdamdmc.Model.DisasterData;
 
 public class CreateDisasterActivity extends AppCompatActivity {
 

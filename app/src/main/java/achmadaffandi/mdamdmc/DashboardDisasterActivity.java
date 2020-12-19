@@ -1,4 +1,4 @@
-package achmadaffandi.mdisaster;
+package achmadaffandi.mdamdmc;
 
 import android.content.Intent;
 import android.os.Bundle;

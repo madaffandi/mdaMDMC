@@ -1,9 +1,4 @@
-package achmadaffandi.mdisaster;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.LinearLayoutManager;
+package achmadaffandi.mdamdmc;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +6,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import achmadaffandi.mdisaster.Holder.DisList_Holder;
-import achmadaffandi.mdisaster.Model.DisasterData;
+import achmadaffandi.mdamdmc.Holder.DisList_Holder;
+import achmadaffandi.mdamdmc.Model.DisasterData;
 
 public class DisListActivity extends AppCompatActivity {
 

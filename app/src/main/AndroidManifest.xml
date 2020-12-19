@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="achmadaffandi.mdisaster">
+    package="achmadaffandi.mdamdmc">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -18,10 +18,10 @@
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key"/>
 
-        <activity android:name=".MapLocation"></activity>
+        <activity android:name="achmadaffandi.mdamdmc.MapLocation"></activity>
         <activity
-            android:name=".LoginActivity"
-            android:label="mDisaster"
+            android:name="achmadaffandi.mdamdmc.LoginActivity"
+            android:label="mdaMDMC"
             android:theme="@style/AppFullScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,28 +30,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateDisasterActivity"
+            android:name="achmadaffandi.mdamdmc.CreateDisasterActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".InitiateDisasterActivity"
+            android:name="achmadaffandi.mdamdmc.InitiateDisasterActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".ForgetPassActivity"
+            android:name="achmadaffandi.mdamdmc.ForgetPassActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".IntroActivity"
+            android:name="achmadaffandi.mdamdmc.IntroActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".DisListActivity"
+            android:name="achmadaffandi.mdamdmc.DisListActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".DashboardDisasterActivity"
+            android:name="achmadaffandi.mdamdmc.DashboardDisasterActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".DisDetailActivity"
+            android:name="achmadaffandi.mdamdmc.DisDetailActivity"
             android:theme="@style/AppFullScreenTheme" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="achmadaffandi.mdamdmc.SignUpActivity"
             android:theme="@style/AppFullScreenTheme" />
     </application>
 
